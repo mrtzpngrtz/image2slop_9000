@@ -1,0 +1,12 @@
+.timeline.has-effects.has-splats.has-text.has-background{height:calc(199px + var(--text-track-height))}
+.background-track{position:relative;height:25px;margin-top:5px;border-block:1px solid var(--line);overflow:hidden}
+.background-segment{position:absolute;top:0;height:100%;min-width:0;padding:0 14px;border:0;border-right:1px solid #969c8955;text-align:left;font-size:9px;overflow:hidden;cursor:pointer}
+.background-segment span{position:relative;display:flex;align-items:center;gap:5px;pointer-events:none}
+.background-segment.selected{box-shadow:inset 0 -2px var(--accent)}
+.background-blend{position:absolute;left:0;top:0;height:100%;border-right:1px solid #aaa6;pointer-events:none}
+.background-track .timeline-point{color:#d0d2c9;background:#646e5b66}
+.background-track .timeline-point.selected{background:var(--accent);color:white}
+.timeline-labels .background-track-label button{display:flex;align-items:center;gap:1px;padding:0;color:inherit}
+.background-track-label button svg:last-child{width:7px;height:7px}
+.timeline-editbar .background-color{width:21px;height:21px;padding:0;border:0;cursor:pointer}
+.timeline-editbar .background-hex{width:65px;letter-spacing:.02em}

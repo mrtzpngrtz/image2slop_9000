@@ -1,0 +1,16 @@
+{
+  "ffmpeg": "tools/ffmpeg/bin/ffmpeg.exe",
+  "ffprobe": "tools/ffmpeg/bin/ffprobe.exe",
+  "colmap": "tools/colmap/bin/colmap.exe",
+  "brush": "tools/brush-v0.3.0/brush_app.exe",
+  "sam3_python": "tools/sam3-env/Scripts/python.exe",
+  "max_frames": 180,
+  "trim_start_degrees": 5,
+  "trim_end_degrees": 5,
+  "duplicate_threshold": 0.35,
+  "min_registered_fraction": 0.7,
+  "min_registered_images": 20,
+  "training_steps": 30000,
+  "max_resolution": 1920,
+  "max_splats": 2000000
+}
